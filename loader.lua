@@ -25,7 +25,7 @@ end
 
 local function loadDripClient()
     local success, result = pcall(function()
-        return game:HttpGet("https://raw.githubusercontent.com/VinzzDrip/DripClient/main/DripClient.lua")
+        return game:HttpGet("https://raw.githubusercontent.com/MisterF-Hacker/DripClient/main/DripClient.lua")
     end)
     
     if success then
